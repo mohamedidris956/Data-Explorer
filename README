@@ -1,0 +1,35 @@
+# Data Explorer Application
+
+## Introduction
+The Data Explorer is a Java-based graphical user interface application designed for analyzing and visualizing census data. It allows users to filter data based on different criteria and view interesting statistical facts about the data.
+
+## Classes
+
+- `GUI`: This is the main class that creates the GUI and orchestrates the interactions between the user and the data.
+- `DatabaseConnector`: A helper class responsible for establishing a connection with the database and executing SQL queries.
+
+## Core Functionality
+
+- **Data Visualization**: Users can see a table filled with census data loaded from the database.
+- **Dynamic Filtering**: Two combo boxes allow the user to filter data based on sex and census year.
+- **Data Analysis**: After applying filters, the application displays interesting facts based on the filtered data, such as the total number of people who moved.
+- **Chart Display**: A bar chart updates to reflect the statistics of the filtered data set.
+
+## Optional Functionality
+
+- **Search**: Users can search the dataset using the search field to filter the table further based on custom queries.
+- **Export**: There is functionality for users to export the filtered data to a CSV file for external analysis (not yet implemented).
+
+## Future Additions
+
+Given more time, the following features would be added to the application:
+
+- **Advanced Filters**: Addition of more granular filters to allow for more detailed data analysis.
+- **Chart Options**: Provide options to display different types of charts and to customize the visual aspects of the charts.
+- **Performance Optimization**: Implement lazy loading for large datasets to improve the performance of data retrieval and rendering.
+- **User Settings**: Allow users to save their settings and custom filters for future use.
+- **Help and Documentation**: In-app help section to guide users on how to use the application effectively.
+
+## Conclusion
+
+The Data Explorer serves as a robust platform for data analysts and researchers to sift through and interpret census data with ease, bringing data-driven insights to the forefront of decision-making processes.
